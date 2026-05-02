@@ -714,6 +714,28 @@ track.addEventListener('touchend', function(e) {
 
 // Project modals
 var projectData = {
+  'card-f1': {
+  title: 'F1 RED BULL DASHBOARD',
+  sub: 'Live Formula 1 statistics for Red Bull Racing',
+  desc: 'Interactive F1 dashboard surfacing championship history, driver standings, race results, and historical breakdowns for Red Bull Racing. Built with Next.js (App Router) on the frontend and Next.js API Routes as serverless functions on the backend, calling the Jolpica F1 API via Axios and caching results in MongoDB Atlas. Recharts powers the data visualizations with smooth, themed transitions, and styled-components keeps the Red Bull livery consistent across components.',
+  stack: ['Next.js', 'React', 'styled-components', 'Recharts', 'Node.js', 'MongoDB Atlas', 'Axios', 'Jolpica F1 API'],
+  demo: 'https://f1-red-bull-dashboard.vercel.app/'
+},
+'card-weather': {
+  title: 'WEATHER APP',
+  sub: 'Real-time weather and 7-day forecast for any city',
+  desc: 'Server-rendered weather application that pulls live conditions and a 7-day forecast for any city. Built with Next.js using API Routes as a thin proxy to the Visual Crossing Weather API — keeping API keys server-side — and styled with styled-components for theming. Dynamic routing per city (e.g. /Boston) enables shareable, SEO-friendly URLs.',
+  stack: ['Next.js', 'TypeScript', 'styled-components', 'Visual Crossing API', 'Vercel'],
+  demo: 'https://mp-4-ebon-nu.vercel.app/Boston'
+},
+'card-gsap': {
+  title: 'GSAP SHOWCASE',
+  sub: 'Three animation patterns explored with the GSAP library',
+  desc: 'A class extra-credit deep dive into the GSAP animation library. Showcases three distinct patterns — orchestrated timeline sequencing, ScrollTrigger reveals, and physics-based motion — each on its own demo screen so the techniques can be studied in isolation. Built in React with styled-components for layout and theming.',
+  stack: ['React', 'GSAP', 'styled-components', 'Vite'],
+  demo: 'https://gsap-extra-credit.vercel.app/'
+},
+  
   'card-bjj': {
     title: 'NOGI BJJ TRAINER',
     sub: 'Full-stack Brazilian Jiu Jitsu learning platform',
